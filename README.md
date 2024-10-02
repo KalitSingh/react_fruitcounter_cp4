@@ -26,7 +26,7 @@ In this project, I have build a **Fruits Counter** by applying the concepts I ha
 
 <details>
 <summary>Cick to get Project Link </summary>
-- <a href = "kalitsfruits.ccbp.tech">Project Link</a>
+- <a href = "https://kalitsfruits.ccbp.tech/">Project Link</a>
 </details>
 
 ### Features That are added 
