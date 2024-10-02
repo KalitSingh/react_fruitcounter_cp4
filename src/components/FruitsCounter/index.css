@@ -1,0 +1,94 @@
+.fruitsCounter-container {
+  background-color: #ffd569;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+}
+.sub-container {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  .sub-container {
+    height: 85vh;
+  }
+}
+.main-heading {
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 38px;
+  }
+}
+.count-style {
+  color: rgb(228, 228, 70);
+  text-decoration: underline;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: cetner;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+  }
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: cetner;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.fruitImg {
+  max-width: 40%;
+  margin: auto;
+}
+.fruit-btn {
+  margin-top: 30px;
+  background-image: linear-gradient(
+    rgb(147, 189, 49),
+    rgb(252, 248, 216),
+    rgb(88, 211, 63)
+  );
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 10px;
+  border: 0 solid;
+  color: #bbb072;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .fruit-btn {
+    max-width: 120px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+.reset-btn {
+  background-image: linear-gradient(
+    rgb(76, 187, 135),
+    white,
+    rgb(214, 120, 120)
+  );
+  color: rgb(128, 207, 38);
+}
+@media screen and (min-width: 768px) {
+  .reset-btn-container {
+    align-self: flex-end;
+    width: 140px;
+  }
+}
